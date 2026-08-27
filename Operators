@@ -1,0 +1,20 @@
+a = int(input("Enter the 1st operand "))
+b = int(input("Enter the second operand "))
+value = input("Enter your operator ")
+
+match value:
+  case '+':
+    result = a+b
+  case '-':
+    result = a-b
+  case '*':
+    result = a*b
+  case '%':
+    result = a%b
+  case '/':
+    result = a/b
+  case _:
+    result = "Invalid Operator"
+
+print(result)
+  
