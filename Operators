@@ -20,18 +20,3 @@ match value:
 
 print(result)
   
-## 2nd Class: 03/09/2026:
-
-def bitwise_operators(task,x,y):
-  if task == 'and':
-    return x & y
-  if task == 'or':
-    return x | y
-  if task == 'xor':
-    return x ^ y
-  if task == 'not':
-    return ~x
-  if task == 'left shift':
-    return x << y
-  if task == 'right shift':
-    return x >> y
